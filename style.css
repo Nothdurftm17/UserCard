@@ -1,0 +1,74 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 800px;
+}
+
+#container{
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    border-style: solid;
+    border-color: lightgray;
+}
+.bar{
+    width:600px;
+    height: 100px;
+    background-color: rgb(22, 133, 167);
+}
+#proPic img{
+    height: 80px;
+    margin-left: 20px;
+    position:relative;
+    bottom: 40px;
+}
+
+#name{
+    position: relative;
+    bottom: 40px;
+    margin-left: 20px;
+}
+#city{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+}
+#city p{
+    margin-left: 8px;
+    font-size: large;
+}
+#city img{
+    height: 18px;
+    margin-left: 20px;
+    position: relative;
+    top: 2px;
+}
+
+#editProf{
+    display: flex;
+}
+
+#editProf img{
+    height: 15px;
+}
+
+.bio{
+    margin-left: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+#editProf{
+    position: relative;
+    margin-left: 20px;
+    bottom: 8px;
+}
+
+#editProf a{
+    position: relative;
+    left: 8px;
+    bottom: 2px;
+}
